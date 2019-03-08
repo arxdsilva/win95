@@ -2,8 +2,28 @@
 	"name": "win95",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f5f5f5",
-		"editor.foreground": "#333333"
+		"editor.background": "#b5bfcf",
+		"editor.foreground": "#333333",
+
+		"scrollbarSlider.background": "#5e646e",
+		"scrollbarSlider.hoverBackground": "#5e646e",
+		"scrollbarSlider.activeBackground": "#5e646e",
+		
+		"sideBar.background": "#b0b7c4",
+		"sideBar.border":"#5e646e",
+		"sideBarSectionHeader.background":"#ffffff",
+
+		"activityBar.background":"#394dcd",
+		
+		"tab.border": "#5e646e",
+		"tab.inactiveBackground": "#b0b7c4",
+
+		"editorGroupHeader.tabsBackground": "#6277ffd3",
+
+		"statusBar.background":"#5e646e",
+
+		"titleBar.activeBackground": "#495ddf",
+		"titleBar.activeForeground": "#495ddf"
 	},
 	"tokenColors": [
 		{
