@@ -1,0 +1,21 @@
+{
+    "name": "win95",
+    "displayName": "win95",
+    "description": "windows 95 feel theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "win95",
+                "uiTheme": "vs",
+                "path": "./themes/win95-color-theme.json"
+            }
+        ]
+    }
+}
