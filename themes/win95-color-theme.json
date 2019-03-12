@@ -2,25 +2,25 @@
 	"name": "win95",
 	"type": "light",
 	"colors": {
-		"editor.background": "#b5bfcf",
+		"editor.background": "#c1c1c1",
 		"editor.foreground": "#333333",
 
 		"scrollbarSlider.background": "#5e646e",
 		"scrollbarSlider.hoverBackground": "#5e646e",
 		"scrollbarSlider.activeBackground": "#5e646e",
 		
-		"sideBar.background": "#b0b7c4",
+		"sideBar.background": "#aaa9a9",
 		"sideBar.border":"#5e646e",
-		"sideBarSectionHeader.background":"#ffffff",
+		"sideBarSectionHeader.background":"#e5e6be",
 
-		"activityBar.background":"#394dcd",
+		"activityBar.background":"#00007f",
 		
 		"tab.border": "#5e646e",
 		"tab.inactiveBackground": "#b0b7c4",
 
-		"editorGroupHeader.tabsBackground": "#6277ffd3",
+		"editorGroupHeader.tabsBackground": "#e5e6be",
 
-		"statusBar.background":"#5e646e",
+		"statusBar.background":"#018283",
 
 		"titleBar.activeBackground": "#495ddf",
 		"titleBar.activeForeground": "#495ddf"
