@@ -3,7 +3,7 @@
     "publisher": "asilva",
     "displayName": "win95",
     "description": "windows 95 feel theme",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.32.0"
