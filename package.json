@@ -23,5 +23,11 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/arxdsilva/win95.git"
+    },
+    "devDependencies": {
+        "vsce": "^1.77.0"
+    },
+    "scripts": {
+        "deploy": "vsce publish --yarn"
       }
 }
