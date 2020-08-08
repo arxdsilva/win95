@@ -1,9 +1,9 @@
 {
     "name": "win95",
-    "publisher": "asilva",
+    "publisher": "arxdsilva",
     "displayName": "win95",
     "description": "windows 95 feel theme",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.32.0"
