@@ -3,8 +3,8 @@
     "publisher": "asilva",
     "displayName": "win95",
     "license": "MIT",
-    "description": "windows 95 feel theme",
-    "version": "0.2.2",
+    "description": "Revive the nostalgic charm of Windows 95 with this theme for Visual Studio Code",
+    "version": "2.0.0",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.32.0"
