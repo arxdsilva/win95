@@ -3,4 +3,5 @@
 .gitignore
 vsc-extension-quickstart.md
 example*.png
+PUBLISHING.md
 azure-pipelines.yml
