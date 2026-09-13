@@ -1,7 +1,6 @@
 # win95 Theme for Visual Studio Code
 
-![win95 Preview](example-v2.png)
-<img src="drawing.jpg" alt="drawing" width="200"/>
+![win95 Preview](example-v3.png)
 
 ## Description
 
