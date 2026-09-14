@@ -25,10 +25,14 @@
         "type": "git",
         "url": "https://github.com/arxdsilva/win95.git"
     },
-    "devDependencies": {
-        "vsce": "^1.77.0"
-    },
     "scripts": {
-        "deploy": "vsce publish --yarn"
-      }
+        "package": "vsce package",
+        "deploy": "vsce publish --azure-credential --skip-duplicate"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.9.2"
+    },
+    "overrides": {
+        "encoding-sniffer": "^1.0.2"
+    }
 }

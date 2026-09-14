@@ -21,6 +21,9 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+          cache: npm
+
+      - run: npm ci
 
       - name: Check tag matches package.json version
         if: github.ref_type == 'tag'
@@ -42,4 +45,4 @@ jobs:
         run: az rest -u https://app.vssps.visualstudio.com/_apis/profile/profiles/me --resource 499b84ac-1321-427f-aa17-267ca6975798 --query id -o tsv
 
       - name: Publish to VS Code Marketplace
-        run: npx --yes @vscode/vsce@3.9.2 publish --azure-credential --skip-duplicate
+        run: npm run deploy
