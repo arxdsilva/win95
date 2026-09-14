@@ -44,5 +44,14 @@ jobs:
       - name: Show Marketplace identity id
         run: az rest -u https://app.vssps.visualstudio.com/_apis/profile/profiles/me --resource 499b84ac-1321-427f-aa17-267ca6975798 --query id -o tsv
 
+      # Package once so both registries receive the identical VSIX.
+      - name: Package extension
+        run: npm run package
+
       - name: Publish to VS Code Marketplace
-        run: npm run deploy
+        run: npm run publish:marketplace
+
+      - name: Publish to Open VSX
+        run: npm run publish:openvsx
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}

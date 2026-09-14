@@ -1,11 +1,31 @@
 {
     "name": "win95",
     "publisher": "asilva",
-    "displayName": "win95",
+    "displayName": "win95 - Windows 95 Theme",
     "license": "MIT",
-    "description": "Revive the nostalgic charm of Windows 95 with this theme for Visual Studio Code",
+    "description": "Retro Windows 95 light color theme for VS Code: classic silver-gray editor, navy activity bar and teal status bar with readable syntax colors.",
     "version": "2.0.0",
     "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#008080",
+        "theme": "dark"
+    },
+    "pricing": "Free",
+    "keywords": [
+        "windows 95",
+        "win95",
+        "windows 98",
+        "retro",
+        "retro theme",
+        "vintage",
+        "classic",
+        "nostalgia",
+        "90s",
+        "light theme",
+        "gray theme",
+        "color theme",
+        "theme"
+    ],
     "engines": {
         "vscode": "^1.32.0"
     },
@@ -25,12 +45,18 @@
         "type": "git",
         "url": "https://github.com/arxdsilva/win95.git"
     },
+    "homepage": "https://github.com/arxdsilva/win95#readme",
+    "bugs": {
+        "url": "https://github.com/arxdsilva/win95/issues"
+    },
     "scripts": {
-        "package": "vsce package",
-        "deploy": "vsce publish --azure-credential --skip-duplicate"
+        "package": "vsce package --out win95.vsix",
+        "publish:marketplace": "vsce publish --packagePath win95.vsix --azure-credential --skip-duplicate",
+        "publish:openvsx": "ovsx publish --packagePath win95.vsix --skip-duplicate"
     },
     "devDependencies": {
-        "@vscode/vsce": "^3.9.2"
+        "@vscode/vsce": "^3.9.2",
+        "ovsx": "^1.2.0"
     },
     "overrides": {
         "encoding-sniffer": "^1.0.2"
