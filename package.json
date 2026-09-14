@@ -4,7 +4,7 @@
     "displayName": "win95 - Windows 95 Theme",
     "license": "MIT",
     "description": "Retro Windows 95 light color theme for VS Code: classic silver-gray editor, navy activity bar and teal status bar with readable syntax colors.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#008080",
